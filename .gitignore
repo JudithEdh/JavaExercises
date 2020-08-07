@@ -1,0 +1,6 @@
+.idea
+JavaExercises.iml
+
+target/
+
+*.class
