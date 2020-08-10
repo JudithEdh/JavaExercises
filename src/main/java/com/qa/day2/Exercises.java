@@ -12,7 +12,7 @@ public class Exercises {
         System.out.println(first +" + "+ second+" = "+ sum);
         System.out.println(first +" - "+ second+" = "+ subtract);
         System.out.println(first +" * "+ second+" = "+ multiply);
-        System.out.println(first +" / "+ second+" = "+ divide);
+
 
     }
     public static int sum(int firstNumber, int secondNumber ){
@@ -25,7 +25,15 @@ public class Exercises {
         return (firstNumber*secondNumber);
     }
     public static double divide(double firstNumber, double secondNumber ){
-        return (firstNumber/secondNumber);
+        double result=0;
+        if(firstNumber>=secondNumber){
+             result=firstNumber/secondNumber;
+            System.out.println(firstNumber +" / "+ secondNumber+" = "+ result);
+        }else{
+            System.out.println("The division cannot be performed");
+            result=0;
+        }
+        return result;
     }
 };
 
