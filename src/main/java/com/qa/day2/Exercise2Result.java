@@ -17,11 +17,16 @@ public class Exercise2Result {
             System.out.println("Your total is "+ total);
 
         }
+        public void gpa(){
+            double percentage=100*(physics+chemistry+biology)/450;
+            System.out.println("Your percentage is "+ percentage+" %");
+        }
 
     }
     public static void main(String[]args){
         Result myResult= new Result(120,150,140);
         myResult.display();
+        myResult.gpa();
 
 
     };
