@@ -19,7 +19,11 @@ public class Exercise2Result {
         }
         public void gpa(){
             double percentage=100*(physics+chemistry+biology)/450;
-            System.out.println("Your percentage is "+ percentage+" %");
+            if(percentage<= 60) {
+                System.out.println("Your percentage is " + percentage + " % (fail)");
+            }else{
+                System.out.println("Your percentage is " + percentage + " % (pass)");
+            }
         }
 
     }
