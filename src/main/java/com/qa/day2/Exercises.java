@@ -7,7 +7,7 @@ public class Exercises {
         int second=4;
         int sum=sum(first,second);
         int subtract=subtract(first,second);
-        int divide=divide(first, second);
+        double divide=divide(first, second);
         int multiply=multiply(first,second);
         System.out.println(first +" + "+ second+" = "+ sum);
         System.out.println(first +" - "+ second+" = "+ subtract);
@@ -24,7 +24,7 @@ public class Exercises {
     public static int multiply(int firstNumber, int secondNumber ){
         return (firstNumber*secondNumber);
     }
-    public static int divide(int firstNumber, int secondNumber ){
+    public static double divide(double firstNumber, double secondNumber ){
         return (firstNumber/secondNumber);
     }
 };
