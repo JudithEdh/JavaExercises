@@ -13,5 +13,8 @@ public class ExercisesArrayLists {
         music.add("song3");
         music.add("song4");
         System.out.println(music);
+        for(int i=0; i<music.size(); i++){
+            System.out.println(music.get(i));
+        }
     }
 }
