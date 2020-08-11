@@ -2,21 +2,21 @@ package com.qa.day2;
 
 public class Exersise3 {
 
-    public static class Input{
 
-        private int number1, number2;
-        private boolean value;
 
-        public Input(int number1, int number2, boolean value) {
-            this.number1 = number1;
-            this.number2 = number2;
-            this.value = value;
-        }
-
-    }
+        public static int  input(int number1, int number2, boolean value) {
+            int result;
+            if(value){
+                result=number1+number2;
+            }else{
+                result=number1*number2;
+            }
+            return result;
+        };
 
     public static void main(String[]args){
-
+      int a = input(3, 4, false);
+        System.out.println("Your result is " + a);
     }
 
 }
