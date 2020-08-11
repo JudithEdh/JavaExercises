@@ -14,8 +14,8 @@ public class ExercisesArrays {
             System.out.println("Number Array2: " + array2[i]);
         }
         for (int i=0; i<array2.length; i++){
-            array2[i]=i;
-            System.out.println("Number Array2new: " + array2[i]);
+            array2[i]=i*10;
+            System.out.println("Number Array2 New: " + array2[i]);
         }
 
     }
