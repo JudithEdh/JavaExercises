@@ -3,8 +3,8 @@ package com.qa.day3;
 public class Coins {
 
     public static void main(String[]args) {
-        float cost = 4.58f *100;
-        float amount = 20f*100;
+        float cost = 2.3f *100;
+        float amount = 5f*100;
         float remaining = amount - cost;
         int notes10=0;
         int notes5=0;
