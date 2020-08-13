@@ -1,6 +1,7 @@
 package com.qa.day2;
 
 public class Exercise7Taxes {
+
 static int percentage(int salary){
     int percentage=0;
    if(salary < 20000 && salary>=15000){
@@ -11,12 +12,18 @@ static int percentage(int salary){
        percentage=20;
    }else if (salary>=45000){
        percentage=25;}
-
-
-
-    return percentage;
+return percentage;
 }
-    public static void main(String[]args){
+    static double tax(int salary, int percentage){
+    double tax;
 
+    return tax=percentage*salary/100;
+    }
+
+
+    public static void main(String[]args){
+    int salary=45000;
+    int percentage=percentage(salary);
+    System.out.println(tax(salary,percentage));
     }
 }
