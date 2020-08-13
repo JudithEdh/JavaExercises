@@ -1,6 +1,6 @@
 package com.qa.day2;
 
-public class Exercises {
+public class Exercise1 {
 
     public static void main(String[]args){
         int first=2;

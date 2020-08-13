@@ -1,6 +1,6 @@
 package com.qa.day2;
 
-public class Exersise3 {
+public class Exercise3 {
 
 
 
