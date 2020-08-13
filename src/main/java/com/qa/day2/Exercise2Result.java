@@ -17,13 +17,16 @@ public class Exercise2Result {
             System.out.println("Your total is "+ total);
 
         }
-        public void gpa(){
+        public double gpa(){
+            display();
             float percentage=100*(physics+chemistry+biology)/450;
             if((percentage>= 60)&&(physics>=90) &&(biology>=90)&&(chemistry>=90)){
                 System.out.println("Your percentage is " + percentage + " % (pass)");
             }else{
                 System.out.println("Your percentage is " + percentage + " % (fail)");
             }
+
+            return percentage;
         }
 
     }
