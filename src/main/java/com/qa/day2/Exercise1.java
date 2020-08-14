@@ -9,19 +9,20 @@ public class Exercise1 {
         int subtract=subtract(first,second);
         double divide=divide(first, second);
         int multiply=multiply(first,second);
-        System.out.println(first +" + "+ second+" = "+ sum);
-        System.out.println(first +" - "+ second+" = "+ subtract);
-        System.out.println(first +" * "+ second+" = "+ multiply);
+
 
 
     }
     public static  int sum(int firstNumber, int secondNumber ){
+        System.out.println(firstNumber +" + "+ secondNumber+" = "+ (firstNumber+secondNumber));
         return (firstNumber+secondNumber);
     }
     public static int subtract(int firstNumber, int secondNumber ){
+        System.out.println(firstNumber +" - "+ secondNumber+" = "+ (firstNumber-secondNumber));
         return (firstNumber-secondNumber);
     }
     public  static int multiply(int firstNumber, int secondNumber ){
+        System.out.println(firstNumber +" * "+ secondNumber+" = "+ (firstNumber*secondNumber));
         return (firstNumber*secondNumber);
     }
     public static double divide(double firstNumber, double secondNumber ){

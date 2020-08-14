@@ -1,6 +1,7 @@
 package com.qa.day2;
 
 public class Exercise5BlackJack {
+
   public static int play(int a, int b){
       int closeA= 21-a;
       int closeB=21-b;
