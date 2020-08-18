@@ -4,33 +4,45 @@ public class Exercise4Flowcharts {
 
     public static void flow(int A) {
         if (A > 2000) {
-            System.out.println("A");
+            System.out.print("A");
+
             if (A > 6000) {
-                System.out.println("C");
+                System.out.print("C");
+
             } else {
-                System.out.println("B");
+                System.out.print("B");
+
                 if (A > 4000) {
-                    System.out.println("D");
+                    System.out.print("D");
+
                 } else {
-                    System.out.println("E");
+                    System.out.print("E");
+
                 }
             }
         } else {
-            System.out.println("1");
+            System.out.print("1");
+
             if (A > 100) {
-                System.out.println("3");
+                System.out.print("3");
+
                 if (A > 600) {
-                    System.out.println("5");
+                    System.out.print("5");
+
                 } else {
-                    System.out.println("4");
+                    System.out.print("4");
+
                     if (A > 500) {
-                        System.out.println("6");
+                        System.out.print("6");
+
                     } else {
-                        System.out.println("7");
+                        System.out.print("7");
+
                     }
                 }
             } else {
-                System.out.println("2");
+                System.out.print("2");
+
             }
         }
 
@@ -38,6 +50,6 @@ public class Exercise4Flowcharts {
 
     public static void main(String[]args){
 
-        flow(100);
+        flow(6500);
     }
 }
