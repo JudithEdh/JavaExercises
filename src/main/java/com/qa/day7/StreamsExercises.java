@@ -10,14 +10,30 @@ public class StreamsExercises {
     public static void main(String[] args) {
 
         List<String> exercise1= Arrays.asList("Michael", "Dean", "James", "Chris");
-        List<String> solution1=
+       /* List<String> solution1=
                 exercise1.stream()
-                .map(x -> ("Hello "+x))
-                .collect(Collectors.toList());
+                        .map(x -> {
+                            if (!x.equals("James")){
+                                String.valueOf("Hello" + x);
+                            }
+                            else x;
+                        }
+                        .collect(Collectors.toList()); */
 
-        solution1.forEach(x -> System.out.println(x));
+        exercise1.forEach(x -> {if (!x.equals("James"))
+                                System.out.printf("%n Hello %s",x);
+                                else System.out.printf("%n %s", x);});
+
+
 
         List<Integer> exercise2=Arrays.asList(3, 4, 7, 8, 12);
+        int solution2=
+                exercise2.stream()
+                .reduce((a,b)->a*b)
+                .get();
+        System.out.println(solution2);
+
+
 
 
 
